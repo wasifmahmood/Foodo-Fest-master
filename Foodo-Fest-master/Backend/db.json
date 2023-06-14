@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@examp.com",
+      "password": "1122"
+    },
+    {
+      "id": 2,
+      "name": "Kenny",
+      "email": "Kenny@examp.com",
+      "password": "1133"
+    },
+    {
+      "id": 3,
+      "name": "Mark",
+      "email": "Mark@examp.com",
+      "password": "1144"
+    },
+    {
+      "id": 4,
+      "name": "Justin",
+      "email": "Justin@examp.com",
+      "password": "1155"
+    },
+    {
+      "username": "sheher",
+      "email": "email@email.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "username": "sheher",
+      "email": "email@email.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "username": "sheher",
+      "email": "email@email.com",
+      "password": "12345",
+      "id": 7
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Fine Doe",
+      "email": "Fine@examp.com",
+      "phoneNumber": "0324111111222",
+      "isBlocked": false
+    },
+    {
+      "id": 2,
+      "name": "Petter",
+      "email": "Petter@examp.com",
+      "phoneNumber": "043566666666",
+      "isBlocked": true,
+      "isBlock": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Pizza",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2020/05/Pepperoni-Pizza_5-SQjpg.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Burger",
+      "image": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg"
+    },
+    {
+      "name": "Fries",
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2022/06/Cheese-Fries-005.jpg",
+      "id": 7
+    },
+    {
+      "name": "Pasta",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/fettuccine-alfredo-1.jpg",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "name": "fajita pizza",
+      "categoryName": "Pizza",
+      "price": "500",
+      "image": "https://cdn.shopify.com/s/files/1/0435/8914/0638/products/49D4DC86-DFFD-4EBE-9314-8D1C555066EA_1_201_a_503x503.jpg?v=1607636435"
+    },
+    {
+      "id": 3,
+      "name": "Peproni Pizza",
+      "categoryName": "Pizza",
+      "price": "1000",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2020/05/Pepperoni-Pizza_5-SQjpg.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beaf Burger",
+      "categoryName": "Burger",
+      "price": "550",
+      "image": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cheese Burger",
+      "categoryName": "Burger",
+      "price": "600",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZllerpaDdchqMTkH_mFa97GNp4EI4I6yb-g&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "French Fries",
+      "categoryName": "Fries",
+      "price": "499",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2022/09/Crispy-Fries_8.jpg"
+    },
+    {
+      "name": "Loded Fries",
+      "categoryName": "Fries",
+      "image": "https://www.lovebakesgoodcakes.com/wp-content/uploads/2014/08/Loaded-Bacon-Cheese-Fries-square.jpg",
+      "price": "600",
+      "id": 7
+    },
+    {
+      "name": "Mighty Zinger",
+      "categoryName": "Burger",
+      "image": "https://juliesfamilykitchen.com/wp-content/uploads/2021/11/Crispy-Zinger-Burger-KFC-Chicken-Burger-Copycat-Recipe.jpg",
+      "price": "800",
+      "id": 8
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "date": "22/12/2022 08:12 am",
+      "name": "Wasif",
+      "total": 550,
+      "products": [
+        "fries",
+        "loded fries"
+      ],
+      "status": "Deliver",
+      "address": "Lahore Cantt"
+    },
+    {
+      "id": 2,
+      "date": "22/12/2022 08:12 am",
+      "name": "Wasif",
+      "total": 550,
+      "products": [
+        "fries",
+        "loded fries"
+      ],
+      "status": "Complete",
+      "address": "Lahore Cantt"
+    },
+    {
+      "id": 3,
+      "date": "23/12/2022 09:12 pm",
+      "name": "Hamna",
+      "total": 1080,
+      "products": [
+        "fries",
+        "Pizza",
+        "Burger"
+      ],
+      "status": "Ready",
+      "address": "Lahore Cantt"
+    }
+  ]
+}
